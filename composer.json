@@ -1,0 +1,9 @@
+{
+    "name": "neworder/pay-yun",
+    "type": "flarum-extension",
+    "autoload": {
+        "psr-4": {
+            "Neworder\\PayYun\\": "src/"
+        }
+    }
+}
