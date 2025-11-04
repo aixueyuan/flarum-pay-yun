@@ -1,0 +1,20 @@
+{
+    "name": "neworder/pay-yun",
+    "description": "Skeleton extension for hot-swapping with custom package.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neworder\\PayYun\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Neworder Pay Yun (Skeleton)",
+            "category": "other"
+        }
+    }
+}
